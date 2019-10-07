@@ -36,13 +36,13 @@ return [
 
     'channels' => [
         'stack' => [
-            'driver' => 'stack',
+            'driver'   => 'stack',
             'channels' => ['single'],
         ],
 
         'single' => [
             'driver' => 'errorlog',
-            'level' => 'debug',
+            'level'  => 'debug',
         ],
 
         'daily' => [
