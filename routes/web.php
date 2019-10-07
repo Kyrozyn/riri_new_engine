@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', "Rute@index");
+Route::get('/', 'Rute@index');
 
 Route::get('/rute', 'Rute@index');
